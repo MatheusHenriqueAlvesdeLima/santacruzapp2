@@ -17,6 +17,7 @@ import {
   X, 
   ArrowLeft,
   GraduationCap,
+  MessageCircle,
   Info,
   Home
 } from 'lucide-react';
@@ -103,10 +104,14 @@ if (showSplash) {
                 className="h-24 w-auto object-contain -my-6" // h-24 aumenta a logo, -my-6 encolhe a borda azul
               />
             </div>
-            <div className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center">
-             <Info className="w-5 h-5 text-white" />
-            </div>
-          </div>
+            <a
+              href="https://wa.me/554130524900"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-white/20 transition"
+           >
+              <MessageCircle className="w-5 h-5 text-pink-400" />
+            </a>
         </header>
         {/* Main Content */}
         <main className="px-6 mt-4">
