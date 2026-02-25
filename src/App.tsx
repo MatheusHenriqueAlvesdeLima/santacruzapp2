@@ -98,7 +98,7 @@ if (showSplash) {
           <div className="flex items-center justify-between mb-2">
             <div className="relative">
               <img 
-                src="/logo-branca.png" 
+                src="/logo-rosa.png"
                 alt="Logo Santa Cruz" 
                 className="h-24 w-auto object-contain -my-6" // h-24 aumenta a logo, -my-6 encolhe a borda azul
               />
